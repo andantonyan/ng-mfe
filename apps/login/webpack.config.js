@@ -21,7 +21,7 @@ const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   tsConfigPath,
   [
-    /* mapped paths to share */
+    '@ng-mfe/shared/data-access-user',
   ],
   workspaceRootPath
 );
